@@ -1,0 +1,3 @@
+interface DrinkProduct implements Product{
+
+}

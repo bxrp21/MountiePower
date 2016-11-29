@@ -1,0 +1,3 @@
+class GGPowerJuiceFactory implements ProductFactory{
+	
+}
