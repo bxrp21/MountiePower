@@ -14,4 +14,14 @@ abstract class Packaging{
 	public double getPrice(){
 		return size*cost*discount;
 	}
+
+	
+	@Override
+	public boolean equals(Object o){
+		if (!(o.getClass().equals(this.getClass())))
+			return false;
+		
+		Package p = (Package) o;
+		return this.getProduct().equals(p.getProduct());
+	}
 }
