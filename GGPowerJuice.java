@@ -5,7 +5,7 @@ class GGPowerJuice implements DrinkProduct{
 		return price;
 	}
 
-	public void setPrice(){
-		
+	public void setPrice(double price){
+		this.price = price;
 	}
 }

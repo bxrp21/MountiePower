@@ -1,3 +1,3 @@
-class MountiePowerPack{
+class MountiePowerPack extends Packaging{
 	
 }

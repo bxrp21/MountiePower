@@ -1,3 +1,3 @@
-class Can{
-	
+class Can extends Packaging{
+
 }

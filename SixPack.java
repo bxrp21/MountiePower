@@ -1,3 +1,3 @@
-class SixPack{
+class SixPack extends Packaging{
 	
 }
