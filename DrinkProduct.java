@@ -1,3 +1,3 @@
-interface DrinkProduct implements Product{
+interface DrinkProduct extends Product{
 
 }

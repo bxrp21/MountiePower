@@ -1,8 +1,8 @@
-class MountiePowerPack extends Packaging{
-	private float discount = 0.7
-	private int size = 24;
+class MountiePowerPack extends Package{
+	private static float discount = (float) 0.7;
+	private static int size = 24;
 	MountiePowerPack(Product product){
-		Super(product,discount,size);
+		super(product,discount,size);
 	}
 	
 	@Override
