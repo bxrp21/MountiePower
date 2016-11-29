@@ -4,10 +4,10 @@ abstract class Packaging{
 	private Product product;
 	private int size;
 
-	Packaging(float discount, Product product, int size){
-		this.cost = cost;
-		this.discount = discount;
+	Packaging(Product product, float discount, int size){
 		this.product = product;
+		cost = product.getPrice();
+		this.discount = discount;
 		this.size = size;
 	}
 
