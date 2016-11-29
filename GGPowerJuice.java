@@ -5,10 +5,6 @@ class GGPowerJuice implements DrinkProduct{
 		return price;
 	}
 
-	public void setPrice(double price){
-		this.price = price;
-	}
-	
 	@Override
 	public boolean equals(Object o){
 		return (o instanceof GGPowerJuice);
