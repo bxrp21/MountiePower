@@ -1,7 +1,7 @@
-class SixPack extends Packaging{
-	private float discount = 0.9
-	private int size = 6;
+class SixPack extends Package{
+	private static float discount = (float) 0.9;
+	private static int size = 6;
 	SixPack(Product product){
-		Super(product,discount,size);
+		super(product,discount,size);
 	}
 }

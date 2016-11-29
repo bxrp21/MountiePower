@@ -1,7 +1,7 @@
-class Can extends Packaging{
-	private float discount = 1.0
-	private int size = 1;
+class Can extends Package{
+	private static float discount = (float) 1.0;
+	private static int size = 1;
 	Can(Product product){
-		Super(product,discount,size);
+		super(product,discount,size);
 	}
 }
