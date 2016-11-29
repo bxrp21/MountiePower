@@ -14,7 +14,10 @@ abstract class Package{
 	public double getPrice(){
 		return size*cost*discount;
 	}
-
+	
+	protected Product getProduct(){
+		return product;
+	}
 	
 	@Override
 	public boolean equals(Object o){
