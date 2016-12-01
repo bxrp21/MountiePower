@@ -7,9 +7,9 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class TestPackage {
-	final static double CAN_DISCOUNT = 1;
-	final static double SIXPACK_DISCOUNT = 0.9;
-	final static double MPP_DISCOUNT = 0.7;
+	final static float CAN_DISCOUNT = 1.0f;
+	final static float SIXPACK_DISCOUNT = 0.9f;
+	final static float MPP_DISCOUNT = 0.7f;
 	
 	final static int CAN_COUNT = 1;
 	final static int SIXPACK_COUNT = 6;
