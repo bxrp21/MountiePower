@@ -1,4 +1,5 @@
-abstract class Package{
+
+abstract class Package {
 	private double cost;
 	private float discount;
 	private Product product;
@@ -15,7 +16,7 @@ abstract class Package{
 		return size*cost*discount;
 	}
 	
-	protected Product getProduct(){
+	public Product getProduct(){
 		return product;
 	}
 	

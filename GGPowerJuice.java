@@ -3,7 +3,7 @@ class GGPowerJuice implements DrinkProduct{
 	private String flavour;
 
 	GGPowerJuice(){
-		flavour = "Regular"
+		flavour = "Regular";
 	}
 
 	GGPowerJuice(String flavour){
