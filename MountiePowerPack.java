@@ -1,6 +1,17 @@
+
 class MountiePowerPack extends Package{
+	
+	/** The discount. */
 	private static float discount = (float) 0.7;
+	
+	/** The size. */
 	private static int size = 24;
+	
+	/**
+	 * Instantiates a new mountie power pack.
+	 *
+	 * @param product the product
+	 */
 	MountiePowerPack(Product product){
 		super(product,discount,size);
 	}
